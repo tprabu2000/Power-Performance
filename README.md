@@ -1,6 +1,6 @@
 # Power-Performance
 
-Matlab compatible Octave script tempcycle_100W_v2.m was developed to study the 
+A Matlab compatible Octave script, "tempcycle_100W_v2.m" was developed to study the 
 effect of semiconductor (FPGA) power and ambient temperature on it's junction temperature. 
 Nominally the junction temperature is to be maintained below 100 degree C for a reliable operation.
 
