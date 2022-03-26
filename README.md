@@ -1,8 +1,8 @@
 # Power-Performance
 
-This program was use dto study the effect of semiconductor (FPGA) power
-and ambient temperature on it's junction temperature. Nominally the 
-junction temperature is to be maintained below 100 degree C for a reliable operation.
+Matlab compatible Octave script tempcycle_100W_v2.m was developed to study the 
+effect of semiconductor (FPGA) power and ambient temperature on it's junction temperature. 
+Nominally the junction temperature is to be maintained below 100 degree C for a reliable operation.
 
 Code uses hard-coded nominal values for package temperature-coefficient 
  heat-sink and air-flow values while the accelerator is drawing abut 90 W of power. 
