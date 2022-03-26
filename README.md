@@ -1,9 +1,10 @@
 # Power-Performance
 
-This program plots effect of semiconductor (FPGA) chip  power
-and ambient temperature on the junction temperature. NOminally the 
-junction temperature is to be maintained below 100 ◦C for a reliable operation.
- This study assumes certain nominal temperature coefficients for the accelerator package, 
+This program was use dto study the effect of semiconductor (FPGA) power
+and ambient temperature on it's junction temperature. Nominally the 
+junction temperature is to be maintained below 100 degree C for a reliable operation.
+
+Code uses hard-coded nominal values for package temperature-coefficient 
  heat-sink and air-flow values while the accelerator is drawing abut 90 W of power. 
  These values can be changed in the code for studying about any particular case.  
 
@@ -37,3 +38,19 @@ In summary, moving the higher end of the operating ambient TA from 27 oC to 35 o
 affects the FPGA hardware by limiting the maximum usable computational power. The low-end
 for the ambient at TA = 15 oC seems to be fine and has no significant effect on the hardware as
 seen from this analysis
+
+References:
+References
+
+1. https://www.altera.com/support/literature/lit-index/lit-pkg/thermal.html?type=thermal&family=Arria_10
+2. Thermal Resistance Calculator
+http://www.myheatsinks.com/calculate/thermal-resistance-round-pin/# .
+3. AN-368-4.0 Thermal management for FPGAs, March 2012, Altera
+4. http://www.zseries.in/electronics%20lab/heat%20sinks/#.WaWPdfMjF0s
+5. Thermal resistivity of copper is only marginally lower than aluminum
+https://heatsinks.files.wordpress.com/2010/10/heat_sink_thermal_resistance_as_a_function_of_velocity.png
+6. https://www.qats.com/cms/2010/10/04/copper-heat-sinks-aluminum-heat-sinks-does-it-matter-what-you-m
+ake-a-heat-sink-from/
+7. https://www.altera.com/content/dam/altera-www/global/en_US/pdfs/literature/packaging/04r00461-04.pdf
+8. https://www.altera.com/support/literature/lit-index/lit-pkg/thermal.html?type=thermal&family=Arria_10
+
